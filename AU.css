@@ -1,0 +1,420 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*cv*/
+.cv {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background: white;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  display: block;
+  background-image: url("image/40-Gambar-Asuna-Yuuki-Sword-Art-Online-Wallpaper-25.jpg");
+}
+
+.cv .title {
+  position: absolute;
+  border-top: 10px;
+  color: darkslategrey;
+}
+
+.cv .dropup {
+  visibility: hidden;
+}
+
+.cv #photo-profile {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.cv #photo-profile img {
+  border-radius: 1000px;
+  width: 200px;
+  height: 200px;
+  left: 70px;
+}
+
+.cv .name {
+  text-align: center;
+  font-family: monospace;
+  border-top: 100px;
+}
+
+.cv .hreff {
+  visibility: visible;
+}
+
+.cv .hreff a:hover {
+  color: darkslategrey;
+}
+
+.cv .tentang {
+  border: whitesmoke 5px solid;
+  background: gainsboro;
+}
+
+.cv .tentang #C1 {
+  text-align: center;
+}
+
+.cv .tentang h3 {
+  text-align: center;
+}
+
+.cv .tentang p {
+  text-align: justify;
+}
+
+.cv .kontak {
+  border: whitesmoke 5px solid;
+  background: gainsboro;
+  display: block;
+}
+
+.cv .kontak a {
+  text-decoration: none;
+  color: black;
+}
+
+.cv .kontak a:hover {
+  color: dimgrey;
+}
+
+.cv .kontak #C6 {
+  text-align: center;
+}
+
+.cv .hreff {
+  display: table-column;
+  position: fixed;
+  float: right;
+  right: 0;
+  bottom: 0;
+  border: solid black 5px;
+  text-align: right;
+  padding: 10px;
+}
+
+.cv .hreff a {
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  border-bottom: 4px gray;
+}
+
+.cv .data-pribadi {
+  border: whitesmoke 5px solid;
+  background: gainsboro;
+}
+
+.cv .data-pribadi #C2 {
+  text-align: center;
+}
+
+.cv .pengalaman {
+  border: whitesmoke 5px solid;
+  background: gainsboro;
+}
+
+.cv .pengalaman h3 {
+  text-align: center;
+}
+
+.cv .pengalaman table {
+  display: inline;
+}
+
+.cv .work {
+  border: whitesmoke 5px solid;
+  background: gainsboro;
+}
+
+.cv .work h3 {
+  text-align: center;
+}
+
+.cv .work p {
+  text-align: justify;
+}
+
+/*skill*/
+.skills {
+  width: 500px;
+  margin: 60px auto;
+  top: 170%;
+  position: absolute;
+  left: 25%;
+  border: solid black 2px;
+}
+
+.skills #C5 {
+  position: relative;
+  text-align: center;
+}
+
+.skills h3 {
+  position: relative;
+  left: 35%;
+  color: black;
+}
+
+.skills li {
+  margin: 20px 0;
+}
+
+.bar {
+  background: white;
+  height: 4px;
+  border: black 1px;
+}
+
+.bar span {
+  height: 4px;
+  float: left;
+  background: black;
+  border: 1px gainsboro;
+}
+
+.sembilan-puluh {
+  width: 90%;
+  -webkit-animation: sembilan 2s;
+          animation: sembilan 2s;
+}
+
+.sembilan-lima {
+  width: 90%;
+  -webkit-animation: sembilanma 2s;
+          animation: sembilanma 2s;
+}
+
+.delapan-puluh {
+  width: 80%;
+  -webkit-animation: panluh 2s;
+          animation: panluh 2s;
+}
+
+.delapan-lima {
+  width: 85%;
+  -webkit-animation: panma 2s;
+          animation: panma 2s;
+}
+
+.tujuh-lima {
+  width: 75%;
+  -webkit-animation: juhma 2s;
+          animation: juhma 2s;
+}
+
+/*Media*/
+@media (max-width: 1000px) {
+  .navigasi {
+    width: 100%;
+    height: 120px;
+  }
+  .navigasi .navbar {
+    display: block;
+    text-align: center;
+    top: 40px;
+  }
+  .cv {
+    background-image: url("image/40-Gambar-Asuna-Yuuki-Sword-Art-Online-Wallpaper-25.jpg");
+    width: 100%;
+    overflow: hidden;
+  }
+  .cv .title {
+    color: aliceblue;
+  }
+  .cv #photo-profile img {
+    margin-top: 100px;
+  }
+  .cv .tentang {
+    margin-left: 5px;
+    width: 95%;
+    left: 3px;
+  }
+  .cv .tentang p {
+    margin: 8px;
+    font-size: 13px;
+  }
+  .cv .data-pribadi {
+    margin-left: 5px;
+    left: 3px;
+    width: 95%;
+  }
+  .cv .work {
+    margin-left: 5px;
+    width: 95%;
+    left: 3px;
+  }
+  .cv .pengalaman {
+    margin-left: 5px;
+    width: 95%;
+  }
+  .cv .pengalaman table {
+    font-size: 13px;
+    margin: 5px;
+  }
+  .cv .skills {
+    background-color: gainsboro;
+    margin-left: 10px;
+    top: 250%;
+    left: 3px;
+    width: 90%;
+    position: absolute;
+  }
+  .cv .skills #C5 {
+    text-align: center;
+  }
+  .cv .skills h3 {
+    left: 0;
+  }
+  .cv .hreff {
+    visibility: hidden;
+  }
+}
+
+.dropup {
+  visibility: visible;
+  display: inline-block;
+  position: fixed;
+  right: 5px;
+  bottom: 0;
+  -ms-flex-line-pack: right;
+      align-content: right;
+  width: 50px;
+  height: 50px;
+}
+
+.dropup img {
+  width: 50px;
+  height: 50px;
+}
+
+.dropup a {
+  color: black;
+  text-decoration: none;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropup .dropup-content {
+  display: none;
+  position: fixed;
+  background-color: aliceblue;
+  min-width: 160px;
+  padding: 12px 16px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropup :hover .dropup-content {
+  display: block;
+}
+
+.footer {
+  margin-bottom: 0;
+  border: black 5px solid;
+  background-color: black;
+}
+
+.footer span {
+  color: blanchedalmond;
+}
+
+@-webkit-keyframes sembilan {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes sembilan {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes sembilanma {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes sembilanma {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes panluh {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes panluh {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@-webkit-keyframes panma {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes panma {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes juhma {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes juhma {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+/*# sourceMappingURL=AU.css.map */

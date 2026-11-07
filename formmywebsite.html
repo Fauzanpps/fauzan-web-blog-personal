@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="navi.css">
+    <script src="https://kit.fontname.com/43d9785275.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+        <div class="navigasi" >
+                <div class="navbrand">
+                    <a href="nav.html"> <img src="image/logo.jpg" alt="Logo SSSS"></a>
+                    <link rel="shortcut icon" href="image/Overwatch_circle_logo.svg" type="image/x-icon">
+                </div>
+                <div class="navbar">
+                    <nav>
+                            <a class="hvr-underline-from-center" href="nav.html">Home</a>
+                            <a class="hvr-underline-from-center" href="AU.html">Curiculum Vitae</a>
+                            <a class="hvr-underline-from-center" href="profile.html">Artikel</a>
+                            <a class="hvr-underline-from-center" href="galeri.html">Galery</a>
+                    </nav> 
+                    </div>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <div class="card-header">
+                    <i class="fas a-user">
+                        Form
+                    </i>
+                    </div>
+                </div>
+                <ul class="nav nav-tabs">
+                    <li class="new-item">
+                        <a href="" class="nav-link active">Form isian</a>
+                    </li>
+                </ul>
+                <form action="" oninput='up2.setCustomVadility(up2.value != up.value ?"Password tidak cocok":"")'>
+                 <div class="form-group row">
+                     <label for="" class="col-sm-2 col-form-label col-form-label-sm">Nama User</label>
+                     <div class="col-sm-8">
+                         <input type="text" class="form-control" id="username" aria-describedy="nameHelp">
+                         <small id="nameHelp" class="form-text text-muted">Nama user yang digunakan untuk masuk ke web ini</small>
+                     </div>
+                 </div>
+                 <div class="form-group row">
+                     <label for="" class="col-sm-1"></label>
+                     <label for="firstName" class="col-sm-2 col-form-label col-form-label-sm">Nama Depan</label>
+                     <div class="col-sm-8">
+                         <input type="text" class="form-control" id="firstName">
+                     </div>
+                 </div>
+                <div class="form-group row">
+                     <label for="" class="col-sm-1"></label>
+                     <label for="lastName" class="col-sm-2 col-form-label col-form-label-sm">Nama Belakang</label>
+                     <div class="col-sm-8">
+                         <input type="text" class="form-control" id="lastName">
+                     </div>
+                 </div>
+                <div class="form-grouo row">
+                    <label for="" class="col-sm-1"></label>
+                    <label for="birthday" class="col-sm-2 col-form-label col-form-label-sm">Tanggal Lahir</label>
+                    <div class="col-sm-8">
+                        <input type="date" autocomplete="off" id="birthday" name="birthday">
+                    </div>
+                </div>
+                <br>
+                <div class="form-group row">
+                     <label for="" class="col-sm-1"></label>
+                     <label for="Email" class="col-sm-2 col-form-label col-form-label-sm" >Email</label>
+                     <div class="col-sm-8">
+                         <input type="text" class="form-control" id="lastName" placeholder="xxxxx@Example.com">
+                     </div>
+                 </div>
+                <div class="form-group row">
+                        <label for="" class="col-sm-1"></label>
+                        <label for="Password" class="col-sm-2 col-form-label col-form-label-sm" >Password</label>
+                        <div class="col-sm-8">
+                            <input type="password" class="form-control" id="password" placeholder="Sertakan Huruf Kapital, Angka, Serta Simbol">
+                        </div>
+                    </div>
+                <div class="form-group row">
+                        <label for="" class="col-sm-1"></label>
+                        <label for="Password-validation" class="col-sm-2 col-form-label col-form-label-sm" >Konfirmasi Password</label>
+                        <div class="col-sm-8">
+                            <input type="password" class="form-control" id="Password-validation">
+                        </div>
+                   </div>
+                <div class="form-group row">
+                       <label for="" class="col-sm-1"></label>
+                       <label for="perkerjaan" class="col-sm-2 col-form-label col-form-label-sm">Merupakan Seorang</label>
+                       <div class="col-sm-8">
+                           <div class="form-check form-check-inline">
+                               <input type="radio" class="form-check-input" id="perkerjaan" name="inlineRadioOption" value="perkerjaan">
+                               <label for="perkerjaan" class="form-check-label">Pekerja</label>
+                           </div>
+                           <div class="form-check form-check-inline">
+                               <input type="radio" class="form-check-input" id="perkerjaan" name="inlineRadioOption" value="perkerjaan">
+                               <label for="perkerjaan" class="form-check-label">Pelajar</label>
+                           </div>
+                           <div class="form-check form-check-inline">
+                               <input type="radio" class="form-check-input" id="perkerjaan" name="inlineRadioOption" value="perkerjaan">
+                               <label for="perkerjaan" class="form-check-label">Pengangguran</label>
+                           </div>
+                       </div>
+    
+                    </div>
+                    <div class="form-group row">
+                        <label for="" class="col-sm-1"></label>
+                        <label for="gender" class="col-sm-2 col-form-label col-form-label-sm">Jenis Kelamin</label>
+                        <div class="col-sm-8">
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="gender" name="inlineRadioOption" value="gender" >
+                                <label for="gender" class="form-check-label">Laki-Laki</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" id="gender" name="inlineRadioOption" value="gender" >
+                                    <label for="gender" class="form-check-label">Perempuan</label>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                        <label for="" class="col-sm-3"></label>
+                        <button type="submit" class="btn btn-dark">Simpan</button>
+                        <button type="reset" class="btn btn-secondary">Reset</button>
+                    </div>
+
+                </form>
+            </div>
+    
+</body>
+</html>

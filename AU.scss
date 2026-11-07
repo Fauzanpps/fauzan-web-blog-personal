@@ -1,0 +1,338 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*cv*/
+
+.cv{
+    
+    align-content: center;
+    background: white;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    display: block;
+    background-image: url("image/40-Gambar-Asuna-Yuuki-Sword-Art-Online-Wallpaper-25.jpg"); 
+    .title{
+        position: absolute ;
+    border-top: 10px;
+    color: darkslategrey;
+    }
+    .dropup{
+        visibility: hidden;
+    }
+  
+    #photo-profile{
+        align-content: center;
+        text-align: center;
+        img{
+        border-radius: 1000px;
+        width: 200px;
+        height: 200px;
+        left: 70px;
+        
+
+        
+        }
+        
+    } 
+    .name{
+        text-align: center;
+        font-family: monospace;
+        border-top: 100px;
+    }
+    .hreff{
+        visibility: visible;
+        a:hover{
+            color: darkslategrey;
+        }
+    }
+
+    .tentang{
+        border: whitesmoke 5px solid;
+        background: gainsboro;
+        #C1{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+            
+
+        }
+        p{
+            text-align: justify;
+        }
+    }
+    .kontak{
+        border: whitesmoke 5px solid;
+        background: gainsboro;
+        display: block;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: dimgrey;
+        }
+        #C6{
+            text-align: center;
+        }
+    }
+    .hreff{
+        display: table-column;
+        position: fixed;
+        float: right;
+        right: 0;
+        bottom: 0;
+        border: solid black 5px;
+        text-align: right;
+        padding: 10px;
+        a{
+            color: black;
+            text-decoration: none;
+            text-align: left;
+            border-bottom: 4px gray;
+
+        }
+    
+    }
+    .data-pribadi{
+        border: whitesmoke 5px solid;
+        background: gainsboro;
+        #C2{
+            text-align: center;
+        }
+    }
+    .pengalaman{
+        border: whitesmoke 5px solid;
+        background: gainsboro;
+        h3{
+            text-align: center;
+        }
+        table{
+            display: inline;
+        }
+    }
+    .work{
+        border: whitesmoke 5px solid;
+        background: gainsboro;
+        h3{
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+
+}
+/*skill*/
+.skills{
+    width: 500px;
+    margin: 60px auto;
+    top: 170%;
+    position: absolute;
+    left: 25%;
+    border: solid black 2px;
+    #C5{
+        position: relative;
+        text-align: center;
+    }
+    h3{
+        position: relative;
+        left: 35%;
+        color: black;
+    }
+
+    li{
+        margin: 20px 0;
+    }
+}
+
+.bar{
+    background: white;
+    height: 4px;
+    border: black 1px;
+}
+.bar span{
+    height: 4px;
+    float: left;
+    background: black ;
+    border: 1px gainsboro;
+}
+.sembilan-puluh{
+    width: 90%;
+    animation: sembilan 2s;
+}
+.sembilan-lima{
+    width: 90%;
+    animation: sembilanma 2s;
+}
+.delapan-puluh{
+    width: 80%;
+    animation: panluh 2s;
+}
+.delapan-lima{
+    width: 85%;
+    animation: panma 2s;
+}
+.tujuh-lima{
+    width: 75%;
+    animation:  juhma 2s;
+}
+/*Media*/
+@media (max-width: 1000px){
+    .navigasi{
+        width: 100%;
+        height: 120px
+    }
+    .navigasi .navbar{
+        display: block;
+        text-align: center;
+        top: 40px;
+    }
+    .cv{
+        background-image: url("image/40-Gambar-Asuna-Yuuki-Sword-Art-Online-Wallpaper-25.jpg");
+        width: 100%;
+        overflow: hidden;
+        .title{
+            color: aliceblue;
+        }
+        
+        #photo-profile{
+       
+
+            img{
+              margin-top: 100px;
+            }
+        }
+
+        .tentang{
+            margin-left: 5px;
+            width: 95%;
+            left: 3px;
+            
+            p{
+                margin: 8px;
+                font-size: 13px;
+            }
+        }
+        .data-pribadi{
+            margin-left: 5px;
+            left: 3px;
+            width: 95%;
+        }
+        .work{
+            margin-left: 5px;
+            width: 95%;
+            left: 3px;
+        }
+        .pengalaman{
+            margin-left: 5px;
+            width: 95%;
+          
+            table{
+                font-size: 13px;
+                margin: 5px;
+            }
+ 
+        }
+        .skills{
+            background-color: gainsboro;
+            margin-left: 10px;
+            top: 250%;
+            left: 3px;
+            width: 90%;
+            position: absolute;
+            #C5{
+                text-align: center;
+            }
+            h3{
+                left: 0;
+            }
+        }
+        .hreff{
+            visibility: hidden;
+        }
+       
+       
+    }
+}
+
+.dropup{
+    visibility: visible;
+    display: inline-block;
+    position: fixed;
+    right: 5px;
+    bottom: 0;
+    align-content: right;
+    width: 50px;
+    height: 50px;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        padding: 12px 16px;
+        display: block
+
+    }
+    .dropup-content{
+        display: none;
+        position: fixed;
+        background-color: aliceblue;
+        min-width: 160px;
+        padding: 12px 16px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    :hover .dropup-content{
+        display: block;
+
+    }
+
+}
+
+@keyframes sembilan {
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes sembilanma{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes panluh {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes panma{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes juhma {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
